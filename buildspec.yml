@@ -2,7 +2,8 @@ version: 0.2
 phases:
   build:
     commands:
-      - echo Nothing to do yet
+      - npm install
+      - npm run dev
 artifacts:
   files:
     - index.html
@@ -10,3 +11,4 @@ artifacts:
     - WieslawPedzich-Resume.pdf
     - images/*
     - styles/*
+    - dist/bundle.js
