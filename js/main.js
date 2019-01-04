@@ -6,7 +6,7 @@ const myWork = [
   {
     'title': "A Serverless Portfolio",
     'href': "https://portfolio.wieslawpedzich.com/",
-    'desc': "In general every time there is a push to a github repository CodePipeline is downloading source code from master branch, compiling it with CodeBuild and deploying to S3 bucket using Lambda. Additionally the same Lambda triggers SNS email notification with build status. Route53 is managing my domain name and CloudFront sits infront of S3 bucket to make portfolio website wold wide accesible. That's it ! We are now able to access portfolio using serverless architecture.",
+    'desc': "In general every time there is a push to a github repository CodePipeline is downloading source code from master branch, compiling it with CodeBuild and deploying to S3 bucket using Lambda. Additionally the same Lambda triggers SNS email notification with build status. Route53 is managing domain name. CloudFront, which sits infront of S3 bucket, makes portfolio website wold wide accesible. That's it ! We are now able to access portfolio using CI/CD serverless architecture .",
     'image': {
       'desc': "A Serverless Portfolio",
       'src': "images/portfolio_architecture.jpg",
