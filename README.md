@@ -10,3 +10,6 @@ HTML
 CSS
 Font Awesome
 Google Fonts
+Babel
+Jest
+Webpack

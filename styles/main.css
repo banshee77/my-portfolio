@@ -24,6 +24,14 @@
   background-color: rgb(52, 152, 219);
 }
 
+.background--black {
+  background-color: rgb(0, 0, 0);
+}
+
+.background--fiction {
+  background-color: rgb(29, 65, 81);
+}
+
 .color--skyBlue {
   color: rgb(52, 152, 219);
 }
@@ -87,6 +95,17 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   padding-top: 5rem;
   padding-bottom: 5rem;
+}
+
+.section_fiction {
+  font-size: 4.2rem;
+  min-height: 50vh;
+  position: relative;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-image: url("/images/section_fiction.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .section--alignCentered {
@@ -189,15 +208,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .modal--open {
-  display: block;
+  display: table;
   position: fixed;
-  top: 0;
+  top: 10%;
   right: 0;
-  left: 0;
+  left: 10%;
   bottom: 0;
-  width: 100%;
-  height: 100%;
+  width: 80%;
+  height: 80%;
   z-index: 100;
+
 }
 
 .modal__closeButton {
@@ -213,9 +233,9 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   top: 0;
   left: 0;
-  font-size: 2.4rem;
-  padding: 2rem;
-  width: 66%;
+  font-size: 20px;
+  padding: 20px;
+  width: 90%;
 }
 
 .modal__link {
@@ -227,5 +247,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .modal__image {
-  opacity: 0.2;
+  display: block;
+  position: relative;
+  padding: 25px;
+  top: 0;
+  right: 0;
+  left: 20%;
+  bottom: 0;
+  width: 60%;
+  height: 60%;
 }

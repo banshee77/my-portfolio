@@ -7,13 +7,10 @@ class ExampleWorkModal extends React.Component {
     let modalClass = this.props.open ? 'modal--open' : 'modal--closed';
 
     return (
-      <div className={"background--skyBlue " + modalClass}>
+      <div className={"background--fiction " + modalClass}>
         <span className="color--cloud modal__closeButton" onClick={this.props.closeModal}>
           <i className="fa fa-window-close-o"></i>
         </span>
-        <img alt= {example.image.desc}
-             className="modal__image"
-             src={example.image.src}/>
         <div className="color--cloud modal__text">
           <h2 className="modal__title">
             {example.title}
@@ -25,6 +22,7 @@ class ExampleWorkModal extends React.Component {
           <p className="modal__description">
           { example.desc }
           </p>
+          <img alt= {example.image.desc} className="modal__image" src={example.image.src}/>
         </div>
       </div>
     )
