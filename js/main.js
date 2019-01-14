@@ -14,12 +14,12 @@ const myWork = [
     }
   },
   {
-      'title': "Work Example",
-      'href': "https://example.com",
-      'desc': "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      'title': "Todoer",
+      'href': "https://todoer.wieslawpedzich.com/",
+      'desc': "This time I wanted to learn about Amplify which provides a declarative and easy-to-use API for cloud operations. First off all I have created simple react application which later on has been modified to TODOER (simple To Do list). Now, I could start my journey with Amplify. I have installed dedicated command line <npm install -g @aws-amplify/cli> which makes easy to create & configure AWS cloud services on the fly directly from the local environment. In general the following commands deployed my react application into the cloud: 'amplify configure' enabled access into AWS, 'amplify init' initialized Amplify powered cloud app, 'amplify hosting add' configured S3AndCloudFront operation, 'amplify auth add' configured Cognito User Pool with Autorization Panel for the application, 'amplify api add' configured AppSync with Cognito authorization and DynamoDB table based on provided GraphQLSchema, 'amplify push' built local backend resources and provision it in the cloud, 'amplify publish' built local backend and frontend resources and provision it in the cloud. TADAM ! That's it. For the cleanup I used 'amplify delete' command keeping in mind that it removed only Stacks, but not Buckets and Roles.",
       'image': {
         'desc': "",
-        'src': "",
+        'src': "images/todoer_architecture.jpg",
         'comment': "example screenshot of a next project"
       }
   },
