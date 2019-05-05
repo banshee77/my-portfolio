@@ -24,6 +24,16 @@ const myWork = [
       }
   },
   {
+    'title': "Notes - Scratch",
+    'href': "https://notes.wieslawpedzich.com/",
+    'desc': "Implementing next simple web application 'Notes - Scratch' I was learing more the following set of technologies and services: Lambda & API Gateway for our serverless API, DynamoDB for our database, Cognito for user authentication and securing our APIs, S3 for hosting our app and file uploads,CloudFront for serving out our app, Route 53 for our domain, Certificate Manager for SSL, React.js for our single page app, React Router for routing, Bootstrap for the UI Kit, Stripe for processing credit card payments, Seed for automating Serverless deployments, Netlify for automating React deployments, GitHub for hosting our project repos.",
+    'image': {
+      'desc': "Notes - Scratch",
+      'src': "",
+      'comment': "Notes - Scratch"
+    }
+  },
+  {
     'title': "Burger Builder",
     'href': "https://burger-builder.wieslawpedzich.com/",
     'desc': "Here I was learning more about React and Redux. For this exercise as database backend and authentication I was using Firebase, a comprehensive mobile development platform. Regarding AWS I was looking for a simple solution how to ensure that my React application will be deployed to production after every commit. At the end I decided to use Amplify. It's was ready easy. First you need to create repository with your app on GIT. Than go to AWS Amplify console and create new Deployment. There you need to select your GIT repository and build configuration (default is provided by AWS). Additionally I have set email notification for deploymnet triggers . That's it.",
