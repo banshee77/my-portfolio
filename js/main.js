@@ -26,7 +26,7 @@ const myWork = [
   {
     'title': "Burger Builder",
     'href': "https://burger-builder.wieslawpedzich.com/",
-    'desc': "Here I was learning more about React and Redux. For this exercise one of the new stuff was using Firebase, a comprehensive mobile development platform, as database backend and for authentication. Regarding AWS I was looking for a simple solution how to ensure that my React application will be deployed to production after every commit. At the end I decided to use Amplify. It's was ready easy. First you need to create repository with your app on GIT. Than go to AWS Amplify console and create new Deployment. There you need to select your GIT repository and build configuration (default is provided by AWS). Additionally I have set email notification for deploymnet triggers . That's it.",
+    'desc': "Here I was learning more about React and Redux. For this exercise as database backend and authentication I was using Firebase, a comprehensive mobile development platform. Regarding AWS I was looking for a simple solution how to ensure that my React application will be deployed to production after every commit. At the end I decided to use Amplify. It's was ready easy. First you need to create repository with your app on GIT. Than go to AWS Amplify console and create new Deployment. There you need to select your GIT repository and build configuration (default is provided by AWS). Additionally I have set email notification for deploymnet triggers . That's it.",
     'image': {
       'desc': "Burger Builder",
       'src': "images/burger_builder_amplify_deploy.jpg",
