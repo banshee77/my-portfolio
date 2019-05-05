@@ -28,8 +28,8 @@ const myWork = [
     'href': "https://notes.wieslawpedzich.com/",
     'desc': "Implementing next simple web application 'Notes - Scratch' I was learing more the following set of technologies and services: Lambda & API Gateway for our serverless API, DynamoDB for our database, Cognito for user authentication and securing our APIs, S3 for hosting our app and file uploads,CloudFront for serving out our app, Route 53 for our domain, Certificate Manager for SSL, React.js for our single page app, React Router for routing, Bootstrap for the UI Kit, Stripe for processing credit card payments, Seed for automating Serverless deployments, Netlify for automating React deployments, GitHub for hosting our project repos.",
     'image': {
-      'desc': "images/notes_scratch.jpg",
-      'src': "",
+      'desc': "Notes - Scratch",
+      'src': "images/notes_scratch.jpg",
       'comment': "Notes - Scratch"
     }
   },
